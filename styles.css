@@ -84,17 +84,12 @@ main > * {
 }
 
 .geo-logo {
-  display: inline-grid;
+  display: block;
   width: clamp(44px, 6vw, 64px);
   height: clamp(44px, 6vw, 64px);
-  place-items: center;
-  color: #fff;
-  background:
-    linear-gradient(135deg, rgba(255,255,255,0.28), transparent 42%),
-    linear-gradient(135deg, var(--blue), var(--green));
-  border-radius: 14px;
+  object-fit: contain;
+  border-radius: 12px;
   box-shadow: 0 8px 22px rgba(45, 108, 223, 0.24);
-  font-weight: 800;
 }
 
 h1,
