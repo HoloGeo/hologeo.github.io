@@ -354,16 +354,6 @@ h1 span {
   text-align: center;
 }
 
-.overview-summary {
-  max-width: 850px;
-  margin: 0 auto;
-  color: #333;
-  font-size: 18px;
-  line-height: 1.75;
-  text-align: center;
-  text-wrap: balance;
-}
-
 .content-section {
   max-width: 920px;
 }
@@ -592,16 +582,6 @@ footer {
   .overview-caption {
     width: 100%;
     max-width: 100%;
-    overflow-wrap: anywhere;
-  }
-
-  .overview-summary {
-    width: 100%;
-    max-width: 100%;
-    font-size: 16px;
-    line-height: 1.7;
-    text-align: left;
-    text-wrap: pretty;
     overflow-wrap: anywhere;
   }
 
